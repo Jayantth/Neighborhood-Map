@@ -63,8 +63,8 @@ var Location = function(data) {
 	this.visible = ko.observable(true);
 
 	// Foursquare API settings
-	 var client_ID_Foursquare = "31FXMTVIIYQNLM3JW3HX3RXYOFVRES0JMCKL1XS1ZBQP4O3G";
-	 var client_Secret_Foursquare = "BDOE4AJFYHKUQQNCJLJGCVOKYPKRQH2IPVYZ43CWTZGWFWMC";
+	 var client_ID_Foursquare = "LAT1DLNMRQVK3IALRB2101F3WTKRBXENRP2CWNFOBIWVVSHU";
+	 var client_Secret_Foursquare = "SUCMU34XXY15103HWYWSRHNZPTUXMZWE10OF4ZFH5J2APYDW";
 
 	var foursquareURL = 'https://api.foursquare.com/v2/venues/search?ll='+ this.lat + ',' + this.long + '&client_id=' + client_ID_Foursquare + '&client_secret=' + client_Secret_Foursquare + '&v=20160118' + '&query=' + this.name;
 

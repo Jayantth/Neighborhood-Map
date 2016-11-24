@@ -1,22 +1,32 @@
-# South Bay Neighborhood Map Project 🚋
+﻿# Udacity Neighborhood Map Project
+##### By: Jayantth Ganesh M S
+####  See the app here - https://github.com/Jayantth/Neighborhood-Map.git
+## General
+>This app displays picknic spots which I love in India on a google map.
+>It is possible to click on every marker to get more information regarding the places.
+>There is a menu on the left side of the app.
+>There is a search box above the map.
 
-![Part of the Udacity Front-End Web Development Nanodegree](https://img.shields.io/badge/Udacity-Front--End%20Web%20Developer%20Nanodegree-02b3e4.svg)
+## Tools Used
 
-Developed for Project 5-1 of the **Udacity Front-End Web Developer Nanodegree**. 🎓
+1. HTML
+2. CSS
+3. Java-Script
+4. Js libraries - JQuery, KnockoutJS 
+5. Google maps API
+6. Foursquare API
 
-This is the **Udacity Neighborhood Map Project**. It's intended as a challenge to put together a website from various APIs. This includes Google Maps and other location-based services like Foursquare.
 
-Included is a list of my and my friends' favorite restaurants in the South Bay. 🍽 There's also with some local parks in the area. 🌳
+## Steps:
 
-The app allows you to filter the list down as you type. In return, it displays the locations on the map. There's also extra info pulled from Foursquare where available. This includes websites and phone numbers. 
-
-The app is responsive, too! It resizes using CSS Flexbox and media queries. It can recalibrate itself based on your screen size -- try resizing the window!
-
-# How To Use It
-
-Click here to try it out:
-
-<http://lastres0rt.github.io/udacity-neighborhood-map-project/>
-
-![Screenshot of Map](http://i.imgur.com/gOvmzrv.png)
-# Neighborhood-Maps
+1. Open index.html in any of the web browser.
+2. By clicking on one of the markers - the marker will start bouncing and an info window will open. 
+3. By clicking the close button on the top-right corner, the current info window will close.
+4. Every info window includes - 
+		* The name of the Place
+		* URL of the Place
+		* The Sea-level of the Place
+		* The Address of the Place.
+5. On the left side there is a menu bar -  
+		* All the places will be included in this menu bar.
+		* It consists of search-box which is used to filter the places.
