@@ -23,10 +23,10 @@
 2. By clicking on one of the markers - the marker will start bouncing and an info window will open. 
 3. By clicking the close button on the top-right corner, the current info window will close.
 4. Every info window includes - 
-		* The name of the Place
-		* URL of the Place
-		* The Sea-level of the Place
-		* The Address of the Place.
+		1. The name of the Place
+		2. URL of the Place
+		3. The Sea-level of the Place
+		4. The Address of the Place
 5. On the left side there is a menu bar -  
-		* All the places will be included in this menu bar.
-		* It consists of search-box which is used to filter the places.
+		1. All the places will be included in this menu bar
+		2. It consists of search-box which is used to filter the places
