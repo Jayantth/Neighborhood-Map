@@ -1,0 +1,95 @@
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.headline {
+    font-family: times, georgia, serif;
+    color: #215ab7;
+    margin: 5;
+    padding: 0px 0px 6px 0px;
+    font-size: 51px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #dadee5;
+}
+
+.search {
+	display: flex;
+	border: 3px solid #215ab7;
+	height: auto;
+}
+
+.search-box {
+	flex-grow: 1;
+	font-size: 1em;
+	padding: 5px 20px;
+}
+
+.app {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.list {
+
+	order: 1;
+	flex-grow: 1;
+	background-color: #dadee5;
+}
+
+.map {
+	order: 2;
+	flex-grow: 4;
+	background-color: #fff;
+	text-align: center;
+	height: 1000px;
+}
+
+.results {
+	margin: 0;
+	padding: 0;
+}
+
+.place {
+    margin: 20px;
+    padding: 20px;
+    list-style: none;
+    background-color: #fff;
+    color: #215ab7;
+    font-size: 18px;
+
+}
+
+
+@media only screen and (max-device-width : 959px), only screen and (max-width : 959px)  {
+
+.app {
+	flex-direction: column;
+}
+
+.search-box, .list {
+	font-size: 1.5em;
+}
+
+.place {
+	padding:5px;
+	margin: 5px;
+}
+
+.headline{
+	font-size: 20px;
+}
+
+.place {
+	font-size: 15px;
+}
+
+.search-box {
+	font-size: 15px;
+}
+}
